@@ -1,0 +1,68 @@
+#created {
+  text-align: center !important;
+}
+#created span {
+  font-weight: bold;
+}
+#last-round {
+  background-color: #DDD;
+  height: 200px;
+}
+#last-round #title {
+  text-align: center;
+}
+#last-round #title span {
+  font-size: 75%;
+}
+#last-round dl {
+  display: inline;
+  line-height: 20px;
+  max-width: 100px;
+}
+#last-round dl dt {
+  float: left;
+  font-weight: bolder;
+  margin-left: 5px;
+}
+#last-round dl dd {
+  display: inline;
+  float: left;
+  width: 10px;
+  margin: 0px;
+  margin-left: 3px;
+  border: 1px solid black;
+  margin-bottom: 10px;
+  text-align: right;
+  padding-right: 15px;
+  background-color: #FFF;
+}
+#last-round dl dd.yellow {
+  background-color: #FFE37F;
+}
+#last-round dl dd.red {
+  background-color: #EE3822;
+  color: #FFF;
+}
+#last-round dl dd.blue {
+  background-color: #66D1F5;
+}
+#last-round dl dd.black {
+  background-color: #000;
+  color: white;
+}
+#last-round dl dd.blueGNAS {
+  background-color: #0D0083;
+}
+#last-round #total {
+  float: right;
+  font-size: 600%;
+  margin: 0px;
+  margin-top: -20px;
+}
+#last-round #comments {
+  display: block;
+  float: left;
+  padding: 20px;
+  font-style: italic;
+  font-size: 95%;
+}

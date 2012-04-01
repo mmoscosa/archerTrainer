@@ -1,0 +1,76 @@
+#created{
+	text-align: center !important;
+
+	span{
+		font-weight: bold;
+	}
+}
+
+#last-round{
+	background-color: #DDD;
+	height: 200px;
+	#title{
+		text-align: center;
+		span{
+			font-size: 75%;
+		}
+	}
+	dl{
+		display: inline;
+		line-height: 20px;
+		max-width: 100px;
+		
+		dt{
+		
+			float: left;
+			font-weight: bolder;
+			margin-left: 5px;
+			
+		}
+		dd{
+			display: inline;
+			float: left;
+			width: 10px;
+			margin: 0px;
+			margin-left: 3px;
+			border: 1px solid black;
+			margin-bottom:10px;
+			text-align: right;
+			padding-right: 15px;
+
+			background-color: #FFF;
+			
+			&.yellow{
+				background-color: #FFE37F;
+			}
+			&.red{
+				background-color: #EE3822;
+				color: #FFF;
+
+			}
+			&.blue{
+				background-color: #66D1F5;
+			}
+			&.black{
+				background-color: #000;
+				color: white;
+			}
+			&.blueGNAS{
+				background-color: #0D0083;
+			}			
+		}
+	}
+	#total{
+		float: right;
+		font-size: 600%;
+		margin: 0px;
+		margin-top:-20px;
+	}
+	#comments{
+		display: block;
+		float: left;
+		padding: 20px;
+		font-style: italic;
+		font-size:95%;
+	}
+}
